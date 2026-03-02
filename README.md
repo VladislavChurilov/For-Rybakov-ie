@@ -1,3 +1,12 @@
+Вопросы безопасности:
+
+- Токен доступа хранится в cookie HttpOnly Secure SameSite=strict
+- Защита от CSRF-атак с помощью токена защиты от CSRF
+- Идемпотентность обеспечивается на стороне сервера
+- Ограничение скорости вывода средств
+- Действия по выводу средств регистрируются в журнале аудита
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
